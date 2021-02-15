@@ -1,8 +1,8 @@
 name: techlify_core
-description: A new Flutter package project.
+description: Package which includes all custom widgets and core modules required for Techlify Mobile projects.
 version: 0.0.1
-author:
-homepage:
+author: Vamshi Sai<vamshi@techlify.com>
+homepage: https://github.com/vamshisaii/techlify_core.git
 
 environment:
   sdk: ">=2.7.0 <3.0.0"
@@ -11,6 +11,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flare_flutter: ^2.0.6
+  flutter_spinkit: ^4.1.2+1
+
 
 dev_dependencies:
   flutter_test:
@@ -21,6 +24,9 @@ dev_dependencies:
 
 # The following section is specific to Flutter.
 flutter:
+  assets:
+    - assets/empty_not_found_404.flr
+    - assets/images/logo.gif
 
   # To add assets to your package, add an assets section, like this:
   # assets:
